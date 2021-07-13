@@ -60,11 +60,11 @@ API: https://api.airtable.com/v0/appBlbkoSrRUxh4cI/Table%201?maxRecords=3&view=G
 - Home page with clickable link to top 10 albums
 - Clickable link to review for each album
 - Album image should be rendered on the page
-- User should be able to select their favorite album from the top 10 list.
 
 #### PostMVP
 
 - Animated background image with changing artist pictures.
+- User should be able to select their favorite album from the top 10 list.
 
 ## Project Schedule
 
