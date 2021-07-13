@@ -18,6 +18,7 @@ Urban XL is a site that will show the top 10 hip-hop albums that were released i
 
 API: https://api.airtable.com/v0/appBlbkoSrRUxh4cI/Table%201?maxRecords=3&view=Grid%20view
 
+```
 {
     "records": [
         {
@@ -50,7 +51,7 @@ API: https://api.airtable.com/v0/appBlbkoSrRUxh4cI/Table%201?maxRecords=3&view=G
     ],
     "offset": "recgl8OAulHi65M8B"
 }
-
+```
 
 ### MVP/PostMVP
 
