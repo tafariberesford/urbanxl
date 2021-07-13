@@ -8,10 +8,14 @@ Urban XL is a site that will show the top 10 hip-hop albums that were released i
 
 ## Wireframes
 
-Link to wireframe
-[Link to wireframe](https://imgur.com/a/u5CVows)
+The homepage wireframe will feauture all of the top tenhip-hop albums released in 2021 so far. If the album is clicked on, then it will show the album + Urban XL's review to the album which a wireframe for that will be included below.
 
-(https://imgur.com/a/MDyb5vI)
+[Link to homepage wireframe](https://imgur.com/a/u5CVows)
+
+[Clicked album data wireframe](https://imgur.com/a/MDyb5vI)
+
+The submit wireframe shows how the user post will appear. Users will have the opportunity to post their favorite hip-hop album that was released in 2021.
+[Submit post wireframe](https://imgur.com/a/eoAx67f)
 
 ## Component Hierarchy
 
