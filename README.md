@@ -12,7 +12,7 @@ Urban XL is a site that will show the top 10 hip-hop albums that were released i
 
 ## Component Hierarchy
 
-
+[url](https://imgur.com/a/1sJxm4Z)
 
 ## API and Data Sample
 
