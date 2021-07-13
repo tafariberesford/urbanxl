@@ -25,39 +25,31 @@ The submit wireframe shows how the user post will appear. Users will have the op
 
 API: https://api.airtable.com/v0/appBlbkoSrRUxh4cI/Table%201?maxRecords=3&view=Grid%20view
 
+This is a data sample from the records table (get request).
+
 ```
 {
-    "records": [
-        {
             "id": "recsV9b3ULpB8Jge8",
             "fields": {
-                "Artist": "Nicki Minaj",
-                "Album": "Beam Me Up Scotty",
-                "Release Date": "May 14, 2021"
+                "artist": "Nicki Minaj",
+                "album": "Beam Me Up Scotty",
+                "releaseDate": "May 14, 2021",
+                "review": "Beam Me Up Scotty originally came out in 2009, but was re-released in May 2021.",
+                "imgURL": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F20%2F2021%2F05%2F14%2Fnicki-minaj-2.j..."
             },
             "createdTime": "2021-07-13T13:25:57.000Z"
         },
-        {
-            "id": "recr98qnE4slIh7Cv",
+```
+This is a data sample from the replies tables (post/get request).
+```
+{
+            "id": "recf2ocpsGjYOUke3",
             "fields": {
-                "Artist": "Polo G",
-                "Album": "Hall of Fame",
-                "Release Date": "June 11, 2021"
+                "name": "Anthony",
+                "reply": "You are so wrong about this. Nicki does not deserve the number one spot!! Crazy bruh."
             },
-            "createdTime": "2021-07-13T13:25:57.000Z"
-        },
-        {
-            "id": "recgl8OAulHi65M8B",
-            "fields": {
-                "Artist": "Doja Cat",
-                "Album": "Planet Her",
-                "Release Date": "June 25, 2021"
-            },
-            "createdTime": "2021-07-13T13:25:57.000Z"
+            "createdTime": "2021-07-13T20:44:59.000Z"
         }
-    ],
-    "offset": "recgl8OAulHi65M8B"
-}
 ```
 
 ### MVP/PostMVP
@@ -67,6 +59,8 @@ API: https://api.airtable.com/v0/appBlbkoSrRUxh4cI/Table%201?maxRecords=3&view=G
 - Home page with clickable link to top 10 albums
 - Clickable link to review for each album
 - Album image should be rendered on the page
+- CSS styling with flexbox
+- Media query for desktop & mobile
 
 #### PostMVP
 
@@ -79,7 +73,7 @@ API: https://api.airtable.com/v0/appBlbkoSrRUxh4cI/Table%201?maxRecords=3&view=G
 | -------- | ------------------------------------------ | -------- |
 | Jul 13 | Proposal Approval / Airtable Setup         | Incomplete |
 | Jul 14   | Setup Index, App.js Add Data Components  | Incomplete |
-| Jul 15   | Add  CSS Component                       | Incomplete |
+| Jul 15   | MVP, CSS                                 | Incomplete |
 | Jul 16   | Add Animations, continued CSS            | Incomplete |
 | Jul 19   | Code Overview/Touch-Ups                  | Incomplete |
 | Jul 20   | Presentation Time!                       | Incomplete |
@@ -97,10 +91,12 @@ API: https://api.airtable.com/v0/appBlbkoSrRUxh4cI/Table%201?maxRecords=3&view=G
 | All Data Component        |    H     |      2hrs      |               |             |
 | Button Component          |    H     |      2hrs      |               |             |
 | Form Component            |    H     |      2hrs      |               |             |
+| Media Query               |    H     |      .5hr      |               |             |
+| Form Component            |    H     |      2hrs      |               |             |
 | CSS Styling               |    H     |      3hrs      |               |             |
 | CSS Styling pt 2          |    H     |      3hrs      |               |             |
 | Code overview             |    H     |      3hrs      |               |             |
-| Total                     |    H     |    42.5hrs     |               |             |
+| Total                     |    H     |         |               |             |
 
 ## SWOT Analysis
 
