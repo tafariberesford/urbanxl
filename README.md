@@ -12,9 +12,44 @@ Urban XL is a site that will show the top 10 hip-hop albums that were released i
 
 ## Component Hierarchy
 
-![imageAlt](https://i.imgur.com/PhRA82l.png)
+
 
 ## API and Data Sample
+
+API: https://api.airtable.com/v0/appBlbkoSrRUxh4cI/Table%201?maxRecords=3&view=Grid%20view
+
+{
+    "records": [
+        {
+            "id": "recsV9b3ULpB8Jge8",
+            "fields": {
+                "Artist": "Nicki Minaj",
+                "Album": "Beam Me Up Scotty",
+                "Release Date": "May 14, 2021"
+            },
+            "createdTime": "2021-07-13T13:25:57.000Z"
+        },
+        {
+            "id": "recr98qnE4slIh7Cv",
+            "fields": {
+                "Artist": "Polo G",
+                "Album": "Hall of Fame",
+                "Release Date": "June 11, 2021"
+            },
+            "createdTime": "2021-07-13T13:25:57.000Z"
+        },
+        {
+            "id": "recgl8OAulHi65M8B",
+            "fields": {
+                "Artist": "Doja Cat",
+                "Album": "Planet Her",
+                "Release Date": "June 25, 2021"
+            },
+            "createdTime": "2021-07-13T13:25:57.000Z"
+        }
+    ],
+    "offset": "recgl8OAulHi65M8B"
+}
 
 
 ### MVP/PostMVP
@@ -45,25 +80,19 @@ Urban XL is a site that will show the top 10 hip-hop albums that were released i
 
 | Component                 | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------------- | :------: | :------------: | :-----------: | :---------: |
-| Proposal                  |    H     |      2hrs      |     2hrs      |    2hrs     |
-| Airtable                  |    H     |     .5hrs      |      1hr      |     1hr     |
-| Album data                |    H     |      1hrs      |      1hr      |     1hr     |
-| Album rednering           |    H     |      3hrs      |     3hrs      |    3hrs     |
-| Data population pg 2      |    H     |      3hrs      |     2hrs      |    2hrs     |
-| Data population pg 3      |    H     |      3hrs      |     2hrs      |    2hrs     |
-| Form creation pg 1        |    H     |      2hrs      |     2hrs      |    2hrs     |
-| Form creation pg 2        |    H     |      2hrs      |     1 hr      |    1 hr     |
-| Form creation pg 3        |    H     |      2hrs      |     1 hr      |     1hr     |
-| Data creation/update pg 1 |    H     |      3hrs      |     3hrs      |    3hrs     |
-| Data creation/update pg 2 |    H     |      3hrs      |      1hr      |     1hr     |
-| Data creation/update pg 3 |    H     |      3hrs      |      1hr      |     1hr     |
-| Data deletion pg 1        |    H     |      2hrs      |      1hr      |     1hr     |
-| Data deletion pg 2        |    H     |      2hrs      |      1hr      |     1hr     |
-| Data deletion pg 3        |    H     |      2hrs      |      1hr      |     1hr     |
-| Component CSS pg 1        |    H     |      3hrs      |     4hrs      |    4hrs     |
-| Component CSS pg 2        |    H     |      3hrs      |     4hrs      |    4hrs     |
-| Component CSS pg 3        |    H     |      3hrs      |     4hrs      |    4hrs     |
-| Total                     |    H     |    42.5hrs     |     35hrs     |    35hrs    |
+| Proposal                  |    H     |      2hrs      |               |             |
+| Airtable                  |    H     |     2hrs       |               |             |
+| Navbar                    |    H     |      1hrs      |               |             |
+| Homepage                  |    H     |      3hrs      |               |             |
+| Album Data                |    H     |      3hrs      |               |             |
+| Artist Data               |    H     |      3hrs      |               |             |
+| All Data Component        |    H     |      2hrs      |               |             |
+| Button Component          |    H     |      2hrs      |               |             |
+| Form Component            |    H     |      2hrs      |               |             |
+| CSS Styling               |    H     |      3hrs      |               |             |
+| CSS Styling pt 2          |    H     |      3hrs      |               |             |
+| Code overview             |    H     |      3hrs      |               |             |
+| Total                     |    H     |    42.5hrs     |               |             |
 
 ## SWOT Analysis
 
