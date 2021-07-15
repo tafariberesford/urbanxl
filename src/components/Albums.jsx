@@ -5,7 +5,7 @@ import { BeatLoader } from "react-spinners";
 const AIRTABLE_KEY = process.env.REACT_APP_AIRTABLE_KEY
 const AIRTABLE_BASE = process.env.REACT_APP_AIRTABLE_BASE
 
-const URL = `https://api.airtable.com/v0/${AIRTABLE_BASE}/urbanxl `
+const URL = `https://api.airtable.com/v0/${AIRTABLE_BASE}/albumsxl `
 
 const headers = {Authorization: `Bearer ${AIRTABLE_KEY}` }
 
@@ -25,6 +25,14 @@ export default function Albums() {
 if (albums.length === 0) {
   return <BeatLoader />
 }
+  
 
-  return <div>Albums</div>;
+
+  return (
+    <div>
+      {albums.map((album) => {
+    return <div>{album.fields.album}</div>
+    })}
+    </div>
+  )
 }
