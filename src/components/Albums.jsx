@@ -2,8 +2,8 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import { BeatLoader } from "react-spinners";
 
-const AIRTABLE_KEY = process.env.API_AIRTABLE_KEY
-const AIRTABLE_BASE = process.env.API_AIRTABLE_BASE
+const AIRTABLE_KEY = process.env.REACT_APP_AIRTABLE_KEY
+const AIRTABLE_BASE = process.env.REACT_APP_AIRTABLE_BASE
 
 const URL = `https://api.airtable.com/v0/${AIRTABLE_BASE}/urbanxl `
 
@@ -17,7 +17,7 @@ export default function Albums() {
       const response = await axios.get(URL, {
         headers,
       });
-      console.log(response)
+      setAlbums(response.data.records);
     };
     fetchAlbums();
   }, []);
