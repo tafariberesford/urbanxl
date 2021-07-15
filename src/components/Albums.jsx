@@ -2,6 +2,8 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import { BeatLoader } from "react-spinners";
 
+import AlbumDisplay from "./AlbumDisplay"
+
 const AIRTABLE_KEY = process.env.REACT_APP_AIRTABLE_KEY
 const AIRTABLE_BASE = process.env.REACT_APP_AIRTABLE_BASE
 
@@ -30,8 +32,8 @@ if (albums.length === 0) {
 
   return (
     <div>
-      {albums.map((album) => {
-    return <div>{album.fields.album}</div>
+      {albums.map((album) => { 
+    return <AlbumDisplay album={album} />
     })}
     </div>
   )
