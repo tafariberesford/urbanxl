@@ -1,10 +1,15 @@
 import React from "react";
 
-export default function AlbumDisplay(props) {
+import { Link } from "react-router-dom";
+
+export default function AlbumDisplay({album}) {
+  const { id, fields } = album;
   return (
+  <Link to={`/albums/${id}`}>
     <div>
-      {props.album.fields.album}
-      <img src={props.album.fields.imgURL} />
-    </div>
+      {fields.album}
+      <img src={fields.imgURL} />
+      </div>
+  </Link>
   );
 }

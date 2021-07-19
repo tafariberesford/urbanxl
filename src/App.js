@@ -3,6 +3,7 @@ import { Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Albums from "./components/Albums";
+import AlbumsData from "./components/AlbumsData";
 
 import './App.css';
 
@@ -18,7 +19,10 @@ function App() {
       <Route path="/urban-albums">
         <Albums />
       </Route>
-      <Albums />
+      {/* <Albums /> */}
+      <Route exact path="/albums/:id">
+        <AlbumsData />
+      </Route>
       <Footer />
     </div>
   );

@@ -33,7 +33,7 @@ if (albums.length === 0) {
   return (
     <div>
       {albums.map((album) => { 
-    return <AlbumDisplay album={album} />
+        return <AlbumDisplay album={album} key={album.id }/>
     })}
     </div>
   )
