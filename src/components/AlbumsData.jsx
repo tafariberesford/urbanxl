@@ -2,6 +2,7 @@ import React from "react";
 import axios from "axios";
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
+import NewReply from "./NewReply"
 
 const AIRTABLE_KEY = process.env.REACT_APP_AIRTABLE_KEY
 const AIRTABLE_BASE = process.env.REACT_APP_AIRTABLE_BASE
@@ -14,6 +15,7 @@ export default function AlbumsData() {
   const {id} = useParams();
   const [album, setAlbum] = useState({});
   const [replies, setReplies] = useState([]);
+  const [toggle, setToggle] = useState(false);
 
   useEffect(() => {
     const fetchReplies = async (repliesArray) => {
@@ -25,6 +27,7 @@ export default function AlbumsData() {
     }
 
     const fetchAlbum = async () => {
+      setReplies([]);
       const URL = `${AIRTABLE_URL}/${id}`;
       const response = await axios.get(URL, { headers, })
       setAlbum(response.data);
@@ -33,13 +36,14 @@ export default function AlbumsData() {
       }
     };
     fetchAlbum();
-  }, [id]);
+  }, [id, toggle]);
   return (
     <div>
       <p><h1>{album.fields?.album}</h1></p>
       <img src={album.fields?.imgURL} />
       <p>{album.fields?.releaseDate}</p>
       <p>{album.fields?.review}</p>{"\n"}
+      <NewReply articleID={id} setToggle={ setToggle }/>
       <div className="replies">
         {replies.map((reply) => {
           return <h1>{reply.fields?.reply}</h1>
