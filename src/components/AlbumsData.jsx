@@ -38,7 +38,7 @@ export default function AlbumsData() {
     fetchAlbum();
   }, [id, toggle]);
   return (
-    <div>
+    <div className="albums">
       <p><h1>{album.fields?.album}</h1></p>
       <img src={album.fields?.imgURL} />
       <p>{album.fields?.releaseDate}</p>

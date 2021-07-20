@@ -9,9 +9,14 @@ body {
 }
 
 img {
-  height: 500px;
-  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
 }
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
