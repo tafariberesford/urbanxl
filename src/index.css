@@ -5,7 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: blanchedalmond;
+  /* background-color: blanchedalmond; */
+  background-image: linear-gradient(black, pink, black);
+  font-family: 'Times New Roman', Times, serif;
 }
 
 img {
@@ -15,6 +17,8 @@ img {
   width: 250px;
   margin: 0 auto;
   border-radius: 75%;
+  box-shadow: 0 0 140px 90px #0ff;
+  border-style: inset;
 }
 
 
