@@ -46,7 +46,7 @@ export default function AlbumsData() {
       <NewReply articleID={id} setToggle={ setToggle }/>
       <div className="replies">
         {replies.map((reply) => {
-          return <h1>{reply.fields?.reply}</h1>
+          return <h1 className="replies">{reply.fields?.reply}</h1>
         })}
       </div>
     </div>

@@ -5,15 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: white;
+  background-color: blanchedalmond;
 }
 
 img {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
   height: 250px;
   width: 250px;
   margin: 0 auto;
+  border-radius: 75%;
 }
 
 
