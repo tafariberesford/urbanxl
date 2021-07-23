@@ -28,6 +28,10 @@ code {
     monospace;
 }
 
+p {
+  font-style: bold;
+}
+
 @media only screen and (max-width: 600px) {
   p {
     font-size: 40px;
