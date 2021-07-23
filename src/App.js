@@ -14,7 +14,7 @@ function App() {
           Home: "/",  "/reviewdetail/:id" */}
       <Navbar />
       <Route exact path="/">
-        Home Page
+        Urban XL Home
       </Route>
       <Route path="/urban-albums">
         <Albums />
