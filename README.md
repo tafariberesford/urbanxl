@@ -40,7 +40,7 @@ This is a data sample from the records table (get request).
             "createdTime": "2021-07-13T13:25:57.000Z"
         },
 ```
-This is a data sample from the replies tables (post/get request).
+This is a data sample from the reply tables (post/get request).
 ```
 {
             "id": "recf2ocpsGjYOUke3",
