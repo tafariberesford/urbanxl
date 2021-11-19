@@ -76,7 +76,7 @@ This is a data sample from the reply tables (post/get request).
 | Jul 15   | MVP, CSS                                 |            |
 | Jul 16   | Add Animations, continued CSS            |            |
 | Jul 19   | Code Overview/Touch-Ups                  |            |
-| Jul 20   | Presentation Time!                       | Incomplete |
+| Jul 20   | Presentation Time!                       |            |
 
 ## Timeframes
 
