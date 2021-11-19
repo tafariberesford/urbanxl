@@ -75,7 +75,7 @@ This is a data sample from the reply tables (post/get request).
 | Jul 14   | Setup Index, App.js Add Data Components  |            |
 | Jul 15   | MVP, CSS                                 |            |
 | Jul 16   | Add Animations, continued CSS            |            |
-| Jul 19   | Code Overview/Touch-Ups                  | Incomplete |
+| Jul 19   | Code Overview/Touch-Ups                  |            |
 | Jul 20   | Presentation Time!                       | Incomplete |
 
 ## Timeframes
