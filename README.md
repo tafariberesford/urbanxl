@@ -71,7 +71,7 @@ This is a data sample from the reply tables (post/get request).
 
 | Day      | Deliverable                                | Status   |
 | -------- | ------------------------------------------ | -------- |
-| Jul 13 | Proposal Approval / Airtable Setup         | Incomplete |
+| Jul 13 | Proposal Approval / Airtable Setup         |            |
 | Jul 14   | Setup Index, App.js Add Data Components  | Incomplete |
 | Jul 15   | MVP, CSS                                 | Incomplete |
 | Jul 16   | Add Animations, continued CSS            | Incomplete |
